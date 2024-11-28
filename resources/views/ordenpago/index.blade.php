@@ -1,6 +1,6 @@
 @extends('layouts.base')
-@section('titulo', 'Prestamos')
-@section('nombre', 'Prestamos')
+@section('titulo', 'Orden pagos')
+@section('nombre', 'Orden Pagos')
 @section('contenido')
     <link rel="stylesheet" href="./css/dashbord.css">
     <div class="table-container">
