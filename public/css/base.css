@@ -1,0 +1,14 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+
+.card-body {
+    display: flex;
+    justify-content: center;
+    background-image: url('../img/fondometalico.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
