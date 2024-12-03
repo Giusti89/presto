@@ -12,11 +12,11 @@ class ordenpago extends Model
 
     public function loan()
     {
-        return $this->belongsTo(Loan::class);
+        return $this->belongsTo(loan::class);
     }
 
     public function pagos()
     {
-        return $this->hasMany(Pago::class);
+        return $this->hasMany(pago::class);
     }
 }

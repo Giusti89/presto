@@ -19,16 +19,16 @@ class loan extends Model
 
     public function cliente()
     {
-        return $this->belongsTo(Cliente::class);
+        return $this->belongsTo(cliente::class);
     }
 
     public function estadopago()
     {
-        return $this->belongsTo(EstadoPago::class);
+        return $this->belongsTo(estadoPago::class);
     }
 
     public function ordenpagos()
     {
-        return $this->hasMany(OrdenPago::class);
+        return $this->hasMany(ordenPago::class);
     }
 }

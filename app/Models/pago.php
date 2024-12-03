@@ -16,6 +16,6 @@ class pago extends Model
 
     public function ordenpago()
     {
-        return $this->belongsTo(OrdenPago::class);
+        return $this->belongsTo(ordenPago::class);
     }
 }

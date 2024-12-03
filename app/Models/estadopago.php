@@ -13,6 +13,6 @@ class estadopago extends Model
 
     public function loans()
     {
-        return $this->hasMany(Loan::class);
+        return $this->hasMany(loan::class);
     }
 }
